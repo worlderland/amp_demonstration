@@ -1,28 +1,37 @@
 <?php
-	$doctype = '
+$doctype = '
 	<!doctype html>
-	<html lang="en">
+	<html ⚡ lang="en">
 	<head>
 		<meta charset="utf-8">
 	';
 
-	$title = '<title>' . $pageTitle . '</title>';
+$title = '<title>' . $pageTitle . '</title>';
 
-	$description = '<meta name="description" content="' . $pageDescription . '">';
+$description = '<meta name="description" content="' . $pageDescription . '">';
 
-	$meta = '
+$meta = '
 		<meta name="author" content="Alessandro Coraglia">
 		<meta name="theme-color" content="#21ccd4">
-		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<!-- AMP Boilerplate lines -->
+		<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+		<script async src="https://cdn.ampproject.org/v0.js"></script>
+		<style amp-custom>
+		
+		</style>
+		<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+		<link rel="canonical" href=".">
+		<!-- END of AMP Boilerplate lines -->
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="images/browser.png" rel="icon" type="image/png">
 	</head>
 
 	<body>
 	';
 
-	$facebook = '
+$facebook = '
 	<!--===FACEBOOK LIKE AND SHARE BUTTONS IMPLEMENTATION===-->
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -35,7 +44,7 @@
 	<!--===END FACEBOOK LIKE AND SHARE BUTTONS IMPLEMENTATION===-->
 	';
 
-	$header = '
+$header = '
 	<div id="outer">	
 		<header>
 			<!--<h1><a href="index.php"><span class="worlder">W</span><img id="balloon" src="images/World-Balloon.svg" alt="worlderland logo"><span class="worlder">rlder</span><span id="land">land</span><span id="com">.com</span></a></h1> -->
@@ -68,13 +77,13 @@
 		</header>
 	';
 
-	$opnSkipNav = '
+$opnSkipNav = '
 	<!--===SKIPNAV FOR BROWSER READERS===-->
 	<div id="skipnav">
 		<div id="main">
 	';
 
-	$aside = '
+$aside = '
 		<aside class="rgt-clmn">
 			<h4>Hello, I\'m Alessandro!</h4>
 			<div class="sidebar-about center txt-center">
@@ -99,7 +108,7 @@
 		</aside>
 	';
 
-	$footer = '	
+$footer = '	
 		<footer>
 			<nav id="bottom-nav" class="center">
 				<ul>
@@ -136,12 +145,12 @@
 		</footer>
 	';
 
-	$clsSkipNav = '
+$clsSkipNav = '
 		</div><!--===END MAIN===-->
 		</div><!--===END SKIPNAV===-->
 	';
 
-	$clsDoc = '
+$clsDoc = '
 	</div><!--===END OUTER===-->
 	</body>
 	</html>
