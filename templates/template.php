@@ -17,21 +17,17 @@ $meta = '
 		<!-- AMP Boilerplate lines -->
 		<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
 		<script async src="https://cdn.ampproject.org/v0.js"></script>
-		<style amp-custom>
-		
-		</style>
 		<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 		<link rel="canonical" href=".">
 		<!-- END of AMP Boilerplate lines -->
-		<link href="css/styles.css" rel="stylesheet" type="text/css">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="images/browser.png" rel="icon" type="image/png">
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<link rel="icon" href="images/browser.png" type="image/png">
 	</head>
 
 	<body>
 	';
 
-$facebook = '
+/*$facebook = '
 	<!--===FACEBOOK LIKE AND SHARE BUTTONS IMPLEMENTATION===-->
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -42,15 +38,15 @@ $facebook = '
 		fjs.parentNode.insertBefore(js, fjs);
 		}(document, \'script\', \'facebook-jssdk\'));</script>
 	<!--===END FACEBOOK LIKE AND SHARE BUTTONS IMPLEMENTATION===-->
-	';
+	';*/
 
 $header = '
 	<div id="outer">	
 		<header>
-			<!--<h1><a href="index.php"><span class="worlder">W</span><img id="balloon" src="images/World-Balloon.svg" alt="worlderland logo"><span class="worlder">rlder</span><span id="land">land</span><span id="com">.com</span></a></h1> -->
+			<!--<h1><a href="index.php"><span class="worlder">W</span><amp-img id="balloon" src="images/World-Balloon.svg" alt="worlderland logo"><span class="worlder">rlder</span><span id="land">land</span><span id="com">.com</span></a></h1> -->
 			<div class="container center">
 				<div class="logo center">	
-					<a href="./"><img src="images/Worlderland.svg" alt="worlderland logo"></a>
+					<a href="./"><amp-img src="images/Worlderland.svg" alt="worlderland logo" width="300" height="80"></a>
 				</div>
 			</div>
 			<!--===SKIPNAV FOR BROWSER READERS===-->
@@ -87,7 +83,7 @@ $aside = '
 		<aside class="rgt-clmn">
 			<h4>Hello, I\'m Alessandro!</h4>
 			<div class="sidebar-about center txt-center">
-				<img src="images/side-bar/me.jpg" class="image image-big center" alt="me">
+				<amp-img src="images/side-bar/me.jpg" class="image image-big center" alt="me" width="300" height="225" layout="responsive"></amp-img>
 				<div class="sidebar-bttn center">
 					<a class="bttn" href="about.php">Read More</a>
 				</div>
