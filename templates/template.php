@@ -1072,11 +1072,6 @@ $aside = '
 				</ul>
 				<br class="clearfloat" />
 			</div>
-			<div class="social-bttns-box">
-				<!--===FB buttons===-->
-				<div class="fb-like social-bttns" data-href="https://www.facebook.com/Worlderland-235922057015682/?modal=admin_todo_tour" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-				<!--===FB buttons===-->
-			</div>
 		</aside>
 	';
 
