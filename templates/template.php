@@ -14,7 +14,6 @@
 		<meta name="author" content="Alessandro Coraglia">
 		<meta name="theme-color" content="#21ccd4">
 		<meta name="viewport" content="width=device-width, initial scale=1.0">
-		<link href="css/animation.css" rel="stylesheet" type="text/css">
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="images/browser.png" rel="icon" type="image/png">
@@ -109,7 +108,6 @@
 					<li><a href="destinations.php" aria-label="Visit the destinations page">Destinations</a></li>
 					<li><a href="travelblog.php" aria-label="Visit the blog page">Blog</a></li>
 					<li><a href="contact.php" aria-label="Visit the contact page to get in touch with Worlderland">Contact</a></li>
-					<li><a href="findability/index.php" aria-label="Findability Class page">Findability</a></li>
 				</ul>
 				<br class="clearfloat" />					
 			</nav>
@@ -148,74 +146,3 @@
 	</body>
 	</html>
 	';
-
-//BELOW THIS LINE THERE ARE ALL THE VARIABLES DEDICATED TO THE FINDABILITY MINI-WEBSITE
-
-$metaFindability = '
-			<meta name="author" content="Alessandro Coraglia">
-			<meta name="viewport" content="width=device-width, initial scale=1.0">
-			<link href="../css/animation.css" rel="stylesheet" type="text/css">
-			<link href="../css/styles.css" rel="stylesheet" type="text/css">
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<link href="../images/browser.png" rel="icon" type="image/png">
-		</head>
-
-		<body>
-	';
-
-$headerFindability = '
-	<div id="outer">	
-		<header>
-			<h1><a href="../index.php"><span class="worlder">W</span><img id="balloon" src="../images/World-Balloon.svg" alt="worlderland logo"><span class="worlder">rlder</span><span id="land">land</span><span id="com">.com</span></a></h1>
-			<!--===SKIPNAV FOR BROWSER READERS===-->
-			<a href="#skipnav" class="hidden">Skip Nav</a>
-			<!--===END SKIPNAV FOR BROWSER READERS===-->
-			<nav id="top-nav" class="center">
-				
-				<label for="show-menu" id="hamburger" class="show-menu">&#9776;</label>
-				<input type="checkbox" id="show-menu">
-				<ul class="navigation">
-					<li><a href="../index.php" aria-label="Return to the Worlderland Home page">Main Home</a></li>
-					<li><a href="index.php" aria-label="Return to the Home page">Home</a></li>
-					<li><a href="https://worlderland.com/blog/" aria-label="Findability Blog page" target="blank">Blog</a></li>
-					<li><a href="seo.php" aria-label="SEO Best practices page">SEO</a></li>
-					<li><a href="research.php" aria-label="Research Topic 1 page" target="blank">Research</a></li>
-					<li><a href="resources.php" aria-label="Findability Resources page">Resources</a></li>
-					<li><a href="vocabulary.php" aria-label="Findability Vocabulary page">Vocabulary</a></li>
-					<li><a href="aboutfind.php" aria-label="About thid Findability site page">About</a></li>
-				</ul>					
-			</nav>
-		</header>
-	';
-
-	$footerFindability = '	
-		<footer>
-			<nav id="bottom-nav" class="center">
-				<ul>
-				<li><a href="../index.php" aria-label="Return to the Worlderland Home page">Main Home</a></li>
-				<li><a href="index.php" aria-label="Return to the Home page">Home</a></li>
-				<li><a href="https://worlderland.com/blog/" aria-label="Findability Blog page" target="blank">Blog</a></li>
-				<li><a href="seo.php" aria-label="SEO Best practices page">SEO</a></li>
-				<li><a href="research.php" aria-label="Research Topic 1 page" target="blank">Research</a></li>
-				<li><a href="resources.php" aria-label="Findability Resources page">Resources</a></li>
-				<li><a href="vocabulary.php" aria-label="Findability Vocabulary page">Vocabulary</a></li>
-				<li><a href="aboutfind.php" aria-label="About thid Findability site page">About</a></li>
-				</ul>					
-			</nav>
-			<div class="footer-social center">
-				<ul>
-					<li><a href="https://www.facebook.com/Worlderland-235922057015682/?modal=admin_todo_tour" target="_blank"><strong class="fb fa fa-facebook" aria-hidden="true"></strong></a></li>
-					<li><a href="https://twitter.com/WorlderlandA" target="_blank"><strong class="tw fa fa-twitter" aria-hidden="true"></strong></a></li>
-					<li><a href="https://www.pinterest.com/worlderland_alex" target="_blank"><strong class="pn fa fa-pinterest-p" aria-hidden="true"></strong></a></li>
-				</ul>
-				<br class="clearfloat" />
-			</div>
-			<div class="cop-rig-container center">
-				<div class="center txt-center">
-					<p class="cop-rig">&copy; Alessandro Coraglia - J390101 - Findability Class 2018</p>
-				</div>
-			</div>
-			<br class="clearfloat" />
-		</footer>
-	';
-?>
