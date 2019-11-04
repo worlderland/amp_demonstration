@@ -204,7 +204,7 @@ ul {
 }
 
 .bttn:hover {
-	background-color: #0D6710;
+	background-color: #0DAC10;
 	text-decoration: underline;
 }
 
@@ -273,7 +273,7 @@ ul {
 }
 
 .blog-link:hover {
-	color: #0D6710;
+	color: #0DAC10;
 	text-decoration: underline;
 }
 
@@ -282,7 +282,7 @@ ul {
 }
 
 .parag-link:hover {
-	color: #0D6710;
+	color: #0DAC10;
 	text-decoration: underline;
 }
 
@@ -459,7 +459,7 @@ input[type=checkbox], .show-menu, .show-submenu {
 
 /*styling hover*/
 .navigation li:hover{
-	background-color: #0D6710;
+	background-color: #0DAC10;
 	flex: 1.5;
 }
 
@@ -711,7 +711,7 @@ footer {
 
 /*styling hover*/
 #bottom-nav li:hover a, #terms-nav li:hover a {
-	color: #0D6710;
+	color: #0DAC10;
 }
 
 /*Underlining the anchor tags text when hovered*/

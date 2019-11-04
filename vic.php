@@ -6,7 +6,7 @@
 	echo $title;
 	echo $description;
 	echo $meta;
-	echo $facebook;
+	//echo $facebook;
 	echo $header;
 	echo $opnSkipNav;
 ?>				
